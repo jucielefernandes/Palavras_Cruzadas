@@ -1,0 +1,109 @@
+@font-face {
+     font-family: StrangeMagic;
+     src: url('/font/StrangeMagic.ttf');
+}
+body{
+	background-image: url(1.jpg);
+}
+#neon{
+	text-align: center;
+	margin: 2px auto;
+	font-size: 60px; text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #c47387, 0 0 70px #c47387, 0 0 80px #c47387 , 0 0 100px #c47387, 0 0 150px #c47387;
+}
+#neon:hover
+{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+#titulo{
+	font-family: StrangeMagic;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+	text-shadow: -0.06em 0 0 #000, 0.06em 0 0 #e8abba;
+}
+a{
+	text-decoration: none;
+}
+a:link {
+  color: 	#9233e0;
+}
+a:visited {
+  color: 	#9233e0;
+}
+p{
+	margin-top: 150px;	
+	margin-bottom: 100px;
+}
+.preto{
+	background-color: #000;
+	height: 30px;
+	width: 30px;
+}
+.caixa{
+	background-color: #baf4ff;
+	padding: 20px;
+	width: 900px;
+	height: 500px;
+	margin: 10px;
+	border-radius: 10px;
+	border:3px solid #67a3af ;
+}
+input{
+	height: 30px;
+	width: 30px;
+	border:0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#container{
+	display:flex;
+	justify-content: center;
+	margin-top: 15px;
+	background-color: #4f287f;
+}
+.botao {
+  /*position: relative;*/
+  width: 100px;
+  height: 40px;
+  background-color: #7157cc;
+  color: black;
+  font-size: 16px;
+  padding: 5px 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  
+  justify-content: bottom;
+}
+.botao:hover {
+  background-color:#9483d1 ;
+  color: white;
+}
+td{
+	border:none;
+	height: 30px;
+	width: 30px;
+}
+form{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.horizontal ,.vertical{
+	background-color: white;
+	width: 200px;
+	height: 300px;
+	border-radius: 10px;
+	margin: 20px;
+	padding:20px;
+	font-size: 15px;
+	text-align: center;
+}
+.dicas{
+	text-align: center;
+}
